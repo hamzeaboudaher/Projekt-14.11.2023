@@ -48,7 +48,7 @@ body {
 }
 
 input {
-    font-family: "Potta One", cursive;
+    font-family: "Frijole", cursive;
     border: 2px solid var(--bg-main);
     color: var(--color-txt);
 }

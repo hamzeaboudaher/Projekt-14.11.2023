@@ -21,9 +21,9 @@ document.querySelector('#dark-mode-toggle').addEventListener('click', () => {
     document.querySelector('meta[name="theme-color"').setAttribute('content', isDarkMode ? '#1a1a2e' : '#fff');
 });
 
-// initial value
+// initial value----------------------
 
-// screens
+// screens --------------------------------
 const start_screen = document.querySelector('#start-screen');
 const game_screen = document.querySelector('#game-screen');
 const pause_screen = document.querySelector('#pause-screen');
@@ -53,7 +53,7 @@ let su_answer = undefined;
 
 let selected_cell = -1;
 
-// --------
+// --------------------------------------------------
 
 const getGameInfo = () => JSON.parse(localStorage.getItem('game'));
 
@@ -443,3 +443,4 @@ wss.on('connection', (socket) => {
 server.listen(3000, () => {
   console.log('Server is running on port 3000');
 });
+

@@ -13,3 +13,4 @@ const CONSTANT = {
     ],
     LEVEL: [29, 38, 47, 56, 65, 74]
 }
+
